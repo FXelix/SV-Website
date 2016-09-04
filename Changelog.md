@@ -13,4 +13,4 @@ FXelix:
 
 
 
-*Der soll vorerst dazu dienen, dem anderen mitzuteilen was genau verändert wurde.*
+*Der Changelog soll vorerst dazu dienen, dem anderen mitzuteilen was genau verändert wurde.*
