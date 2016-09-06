@@ -9,10 +9,10 @@
 <body>
 <div class="header">
 <h1>HAPPY PEOPLE</h1>
-	
+
 </div>
-	
-<nav class="menu">
+
+<nav>
 	<ul>
 		<li><a href="" title=""></a>Pullis</li>
 		<li><a href="" title=""></a>Polos</li>
@@ -23,23 +23,23 @@
 </nav>
 
 <div class="content">
-	<div class="col-12">
+	<div class="showcase">
 		<h1>Pullis</h1>
 		<p>hello test test</p>
 	</div>
-	<div class="col-12">
+	<div class="showcase">
 		<h1>Polos</h1>
-		<p>hello test test</p>	
-	</div>	
-	<div class="col-12">
-		<h1>Bleistifte</h1>
-		<p>hello test test</p>	
+		<p>hello test test</p>
 	</div>
-	<div class="col-12">
+	<div class="showcase">
+		<h1>Bleistifte</h1>
+		<p>hello test test</p>
+	</div>
+	<div class="showcase">
 		<h1>Kulis</h1>
-		<p>hello test test</p>	
-	</div>	
+		<p>hello test test</p>
+	</div>
 </div>
-	
+
 </body>
 </html>
