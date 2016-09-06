@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test-Website</title>
+	<title>Vikilu SV Shop</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
 </head>
+
 <body>
 <div class="header">
 <h1>HAPPY PEOPLE</h1>
@@ -19,6 +21,7 @@
 
 	</ul>
 </nav>
+
 <div class="content">
 	<div class="col-12">
 		<h1>Pullis</h1>
