@@ -2,7 +2,7 @@
 Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 
 /*############################################
-				ALLGEMEINES						
+				ALLGEMEINES
 ##############################################*/
 * {
 	box-sizing: border-box;.
@@ -33,7 +33,7 @@ p {
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
+.col-6 {width: 50%;}                           /* bisher kaum genutzt*/
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
@@ -48,48 +48,57 @@ p {
 }
 
 /*############################################
-				  HEADER			
+				  HEADER
 ##############################################*/
 .header {
 	width: 100%;
 	height: 8%;
 	border: 1px solid red;
 	position: fixed;
+	background-color: blue;
 }
 /*############################################
-				NAVIGATIONSBAR						
+				NAVIGATIONSBAR
 ##############################################*/
 nav {
 	list-style: none;
 	height: 100%;
-	width: 25%;
+	width: 300px;
 	position: fixed;
 	top: 8%;
 }
 
-.menu li {
+nav li {
 	font-size: 40px;
-
 }
 
 /*############################################
-			   ARTIKEL-SHOWCASE					
+			   ARTIKEL-SHOWCASE
 ##############################################*/
 
 .content {
-	margin-left: 25%;
-	overflow-y: scroll;
+	margin-left: 300px;
+	text-align: center;
+	vertical-align: center;
+	padding: 50px;
 }
 
+.showcase {
+	width: 100%;
+	float: left;
+    	padding: 100px;
+    	margin: 30px;
+    	border: 1px solid red;
+}
 
 /*############################################
-				  FOOTER						
+				  FOOTER
 ##############################################*/
 
 
 
 /*############################################
-				RESPONSIVE DESIGN					
+				RESPONSIVE DESIGN
 ##############################################*/
 
 @media only screen and (max-width: 920px) {
