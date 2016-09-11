@@ -13,7 +13,7 @@
 </div>
 
 <nav>
-	<ul>
+	<ul >
 		<li><a href="" title=""></a>Pullis</li>
 		<li><a href="" title=""></a>Polos</li>
 		<li><a href="" title=""></a>Kulis</li>
@@ -22,7 +22,7 @@
 	</ul>
 </nav>
 
-<div class="content">
+<div class="ContentPage">
 	<div class="showcase">
 		<h1>Pullis</h1>
 		<p>hello test test</p>
