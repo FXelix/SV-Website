@@ -4,14 +4,17 @@
 	<title>Vikilu SV Shop</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
+	<meta name="description" content="Hier werden Vikilu Shopartikel verkauft">
+	<meta name="keywords" content="Vikilu,Viktoria-Luise-Gymnasium,Merchendise,Schülervertretung,SV Shop">
+	<meta name="author" content="Felix Scheling,Robert Kiene">
 </head>
 
 <body>
 <div class="header">
 <h1>HAPPY PEOPLE</h1>
-
 </div>
 
+<div class="wrapper">
 <nav>
 	<ul >
 		<li><a href="" title=""></a>Pullis</li>
@@ -39,6 +42,7 @@
 		<h1>Kulis</h1>
 		<p>hello test test</p>
 	</div>
+</div>
 </div>
 
 </body>
