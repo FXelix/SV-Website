@@ -26,6 +26,7 @@
 	</nav>
 
 	<div class="ContentPage">
+	<div class="focus">
 		<div class="showcase">
 			<h1>Pullis</h1>
 			<p>hello test test</p>
@@ -42,6 +43,7 @@
 			<h1>Kulis</h1>
 			<p>hello test test</p>
 		</div>
+	</div>
 	</div>
 </div>
 
