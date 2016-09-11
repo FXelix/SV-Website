@@ -10,12 +10,15 @@ Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 
 body {
 	margin: 0;
+	overflow: hidden;
+
 }
 
 .wrapper {
 	max-width: 75%;
 	margin: 0 auto;
 	border: 1px solid red;
+
 }
 
 h1 {
@@ -56,7 +59,7 @@ p {
 	height: 8%;
 	border: 1px solid red;
 	position: fixed;
-	background-color: blue;
+	background-color: transparent;
 }
 /*############################################
 		     NAVIGATIONSBAR
@@ -82,18 +85,24 @@ nav li {
 ##############################################*/
 
 .ContentPage {
-	margin-left: 300px;
-	text-align: center;
-	vertical-align: center;
-	padding: 50px;
-	top: 8%;
 	display: -webkit-flex;
     	display: flex;
     	-webkit-flex-direction: column;
     	flex-direction: column;
     	justify-content: center;
     	align-items: center;
+    	/*margin: 75px 75px 0 375px;*/
+	margin-left: 300px;
+	text-align: center;
+	vertical-align: center;
+	padding: 75px;
+	top: 8%;
 
+}
+
+.focus {
+		max-height: 1000px;
+	overflow-y: scroll;
 }
 
 .showcase {
