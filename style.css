@@ -10,8 +10,6 @@ Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 
 body {
 	margin: 0;
-	overflow: hidden;
-
 }
 
 .wrapper {
@@ -56,7 +54,7 @@ p {
 ##############################################*/
 .header {
 	width: 100%;
-	height: 8%;
+	height: 75px;
 	border: 1px solid red;
 	position: fixed;
 	background-color: transparent;
@@ -70,7 +68,7 @@ nav {
 	height: 100%;
 	width: 300px;
 	position: fixed;
-	top: 8%;
+	top: 75px;
 	font-size: 40px;
 }
 nav li {
@@ -91,18 +89,14 @@ nav li {
     	flex-direction: column;
     	justify-content: center;
     	align-items: center;
-    	/*margin: 75px 75px 0 375px;*/
 	margin-left: 300px;
 	text-align: center;
 	vertical-align: center;
-	padding: 75px;
-	top: 8%;
-
+	padding: 75px 100px 75px 100px;
 }
 
 .focus {
-		max-height: 1000px;
-	overflow-y: scroll;
+
 }
 
 .showcase {
@@ -114,7 +108,7 @@ nav li {
 	width: 500px;
 	height: 500px;
     	padding: 100px;
-    	margin: 30px;
+    	margin: 20px;
     	border: 1px solid red;
 }
 
@@ -123,9 +117,9 @@ nav li {
 ##############################################*/
 .footer {
 	width: 100%;
-	height: 2%;
+	max-height: 100%;
 	border: 1px solid red;
-	background-color: blue;
+	background-color: transparent;
 	bottom: 0;
 	margin: 0;
 	padding: 0;
@@ -137,6 +131,6 @@ nav li {
 		  RESPONSIVE DESIGN
 ##############################################*/
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1000px) {
 
 }
