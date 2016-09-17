@@ -10,20 +10,18 @@
 </head>
 
 <body>
-<div class="header">
-<h1>HAPPY PEOPLE</h1>
-</div>
 
-<div class="wrapper">
-	<nav>
-		<ul>
+<div id="header">
+		<ul id="menu">
 			<li><a href="" title=""></a>Pullis</li>
 			<li><a href="" title=""></a>Polos</li>
 			<li><a href="" title=""></a>Kulis</li>
 			<li><a href="" title=""></a>Bleistifte</li>
 
 		</ul>
-	</nav>
+</div>
+
+<div class="wrapper">
 
 	<div class="ContentPage">
 	<div class="focus">
