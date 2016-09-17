@@ -11,46 +11,34 @@
 
 <body>
 
-<div id="header">
-		<ul id="menu">
-			<li><a href="" title=""></a>Pullis</li>
-			<li><a href="" title=""></a>Polos</li>
-			<li><a href="" title=""></a>Kulis</li>
-			<li><a href="" title=""></a>Bleistifte</li>
-
-		</ul>
-</div>
+<?php require("standard/header.html"); ?>
 
 <div class="wrapper">
 
 	<div class="ContentPage">
 	<div class="focus">
 		<div class="showcase">
-			<h1>Pullis</h1>
+			<h1>Pullover</h1>
 			<p>hello test test</p>
 		</div>
 		<div class="showcase">
-			<h1>Polos</h1>
+			<h1>Polo-Shirts</h1>
 			<p>hello test test</p>
 		</div>
+		<div class="showcase">
+			<h1>Kugelschreiber</h1>
+			<p>hello test test</p>
+		</div>
+
 		<div class="showcase">
 			<h1>Bleistifte</h1>
 			<p>hello test test</p>
 		</div>
-		<div class="showcase">
-			<h1>Kulis</h1>
-			<p>hello test test</p>
-		</div>
 	</div>
 	</div>
 </div>
+<?php require("standard/footer.html"); ?>
 
-<div class="footer">
-	<ul>
-		<li><a href="">Platz 1</a>Test 1</li>
-		<li><a href="">Platz 2</a>Test 2</li>
-	</ul>
-</div>
 
 </body>
 </html>
