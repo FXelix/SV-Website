@@ -63,16 +63,24 @@ p {
 		     NAVIGATIONSBAR
 ##############################################*/
 nav {
-	background-color: grey;
-	list-style: none;
 	height: 100%;
-	width: 300px;
+	width: 310px;
 	position: fixed;
 	top: 75px;
+	background-color: grey;
+	list-style: none;
 	font-size: 40px;
 }
+nav ul {
+	padding: 0
+}
+
 nav li {
 	list-style: none;
+	padding: 20px;
+}
+nav li:hover {
+	background-color: red;
 }
 
 
@@ -89,7 +97,7 @@ nav li {
     	flex-direction: column;
     	justify-content: center;
     	align-items: center;
-	margin-left: 300px;
+	margin-left: 360px;
 	text-align: center;
 	vertical-align: center;
 	padding: 75px 100px 75px 100px;
@@ -108,7 +116,7 @@ nav li {
 	width: 500px;
 	height: 500px;
     	padding: 100px;
-    	margin: 20px;
+    	margin: 30px;
     	border: 1px solid red;
 }
 
