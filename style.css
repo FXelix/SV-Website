@@ -37,8 +37,7 @@ p {
 
 #header {
 	width: 100%;
-	background-color: #585858;
-	position: fixed;
+	background-color: #ADADAD;
 }
 #menu {
 	list-style: none;
@@ -55,6 +54,7 @@ p {
 }
 #menu li:hover {
 	background-color: red;
+	transition: 0.2s;
 }
 
 
@@ -73,7 +73,7 @@ p {
     	align-items: center;
 	text-align: center;
 	vertical-align: center;
-	padding: 75px 100px 75px 100px;
+	padding: 0 100px 0 100px;
 }
 
 .focus {
@@ -96,7 +96,7 @@ p {
 /*############################################
 			   FOOTER
 ##############################################*/
-.footer {
+#footer {
 	bottom: 0;
 	margin: 0;
 	padding: 0;

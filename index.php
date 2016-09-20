@@ -29,8 +29,7 @@
 			<h1>Kugelschreiber</h1>
 			<p>hello test test</p>
 		</div>
-
-		<div class="showcase">
+			<div class="showcase">
 			<h1>Bleistifte</h1>
 			<p>hello test test</p>
 		</div>
