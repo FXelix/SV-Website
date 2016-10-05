@@ -9,6 +9,7 @@ Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 }
 
 body {
+	font-family:'Source Sans Pro', Calibri, Candara, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
