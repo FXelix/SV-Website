@@ -1,12 +1,9 @@
 Dies hier ist unsere programmierinterne TODO - Liste:
 
 # TODO
-
-- Standarsachen hinzufügen zu *head*, wie Encoding etc.
-- Head/Navbar definieren
-- Footer einrichten (nach Vikilu Website)
+- copyright unter footer machen
 - Möglicherweise das Showcase weiter überarbeiten (scrollen und den allgemeinen Look)
-- Responsive Resign
-- Auswahl-Artikelseite erstellen
+-Farbauswahl-Seite erstellen (grundgerüst fertig)
 - die eigentliche artikelspezifische Artikelseite erstellen
+- alles miteinander verlinken
 
