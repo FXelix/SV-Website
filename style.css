@@ -10,6 +10,7 @@ Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 
 body {
 	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -32,14 +33,24 @@ h1 {
 
 #header {
 	width: 100%;
-	background-color: #ADADAD;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
 }
+
+#header-img {
+	width: 100%;
+	vertical-align: top;
+}
+
 #menu {
+	background-color: #ADADAD;
 	list-style: none;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	vertical-align: top;
 }
+
 #menu li {
 	padding: 12px 24px ;
 	display: inline-block;
@@ -52,13 +63,6 @@ h1 {
 	background-color: red;
 	transition: 0.2s;
 }
-
-#header-img {
-	width: 100%;
-}
-
-
-
 
 /*############################################
 		ARTIKEL-SHOWCASE
@@ -132,8 +136,8 @@ hr {
 }
 #öffnungszeiten p {
 	margin: 2px;
-}
 
+}
 /*############################################
 		  RESPONSIVE DESIGN
 ##############################################*/
