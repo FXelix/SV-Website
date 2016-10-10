@@ -3,20 +3,23 @@
 
 <head>
     <title>Vikilu SV Shop</title>
-    <link rel="stylesheet" type="text/css" href="/portfolio/style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <meta charset="UTF-8">
     <meta name="description" content="Hier werden Artikel des Viktoria-Luise Gymnasiums verkauft.">
     <meta name="keywords" content="Vikilu,Viktoria-Luise-Gymnasium,Merchendise,Schülervertretung,SV Shop">
     <meta name="author" content="Felix Scheling,Robert Kiene">
 
-<script src="/portfolio/jquery-3.1.0.min.js"></script>
+<script src="/jquery-3.1.0.min.js"></script>
 
 <script>
     $(function(){
-        $("#header").load("/portfolio/standard/header.html");
+        $("#header").load("/standard/header.html");
     });
     $(function(){
-        $("#footer").load("/portfolio/standard/footer.html");
+        $("#footer").load("/standard/footer.html");
+    });
+    $(function(){
+        $("#copyright").load("standard/copyright.html");
     });
 </script>
 
@@ -64,6 +67,8 @@
 
     <div id="footer"><!--footer.html wird hier eingefügt mit javascript --></div>
     </div>
+
+    <div id="copyright"><!--copyright.html wird hier eingefügt mit javascript --></div>
 
 </body>
 </html>
