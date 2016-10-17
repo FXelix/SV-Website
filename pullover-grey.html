@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Vikilu SV Shop</title>
+	<link rel="stylesheet" type="text/css" href="/SV-Website/style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Hier werden Vikilu Shopartikel verkauft">
+	<meta name="keywords" content="Vikilu,Viktoria-Luise-Gymnasium,Merchendise,Schülervertretung,SV Shop">
+	<meta name="author" content="Felix Scheling,Robert Kiene">
+
+<script src="/SV-Website/jquery-3.1.0.min.js"></script>
+
+<script>
+    $(function(){
+        $("#header").load("/SV-Website/standard/header.html");
+    });
+    $(function(){
+        $("#footer").load("/SV-Website/standard/footer.html");
+    });
+    $(function(){
+        $("#copyright").load("/SV-Website/standard/copyright.html");
+    });
+</script>
+
+</head>
+
+<body>
+<div id="header"> <!-- hier steht der header content durch javascript (standard/header.html) --> </div>
+
+<div id="artikelwrapper">
+
+    <div id="fotowrapper">
+    <div id="fotoswitcher">
+        <img src="http://placehold.it/70x70">
+        <img src="http://placehold.it/70x70">
+    </div>
+    <img src="http://placehold.it/500x500">
+    </div>
+
+    <div id="beschreibungswrapper">
+        <div id="beschreibung">
+        <h1>Pullover, Baumwolle: Grau</h1>
+        <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul>
+            <li>Material</li>
+            <li>Kragenform</li>
+            <li>Farbe</li>
+            <li>Pflegehinweis</li>
+            <li>Hinweise</li>
+        </ul>
+        </div>
+
+        <div id="switcher">
+            <div id="farbswitcher"></div>
+            <div id="fontswitcher"></div>
+        </div>
+    </div>
+    <div id="bestellinfo"></div>
+</div>
+
+<!-- <div id="wrapper"> -->
+<div id="footer"><!--footer.html wird hier eingefügt mit javascript --></div>
+<!-- </div> -->
+
+<div id="copyright"><!--copyright.html wird hier eingefügt mit javascript --></div>
+
+
+
+</body>
+</html>
