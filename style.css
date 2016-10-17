@@ -43,7 +43,7 @@ h1 {
 }
 
 #menu {
-	background-color: #ADADAD;
+	background-color: #2a8029;
 	list-style: none;
 	text-align: center;
 	margin: 0;
@@ -51,18 +51,18 @@ h1 {
 }
 
 #menu li {
-	padding: 12px 24px ;
+	padding: 16px 24px;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 24px;
 
 }
 #menu li a {
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 #menu li:hover {
-	background-color: red;
+	background-color: #1d591d;
 	transition: 0.2s;
 }
 
@@ -94,7 +94,7 @@ h1 {
     margin: 30px;
     padding: 15px;
     border: 1px solid red;
-    background-color: green;
+    background-color: #2a8029;
 }
 .showcase:hover {
 	background-color: blue;
@@ -125,7 +125,7 @@ h1 {
 	margin: 15px;
 	padding: 15px;
     border: 1px solid red;
-    background-color: green;
+    background-color: #2a8029;
 }
 
 
@@ -191,6 +191,7 @@ h1 {
 	border: 1px solid red;
 	background-color: #DFDFDF;
 	overflow: auto;
+	padding: 0 180px 0 180px;
 }
 #adresse {
 	margin: 10px;
@@ -221,7 +222,7 @@ hr {
     padding: 2px;
     text-align: center;
     margin-bottom: 30px;
-    background-color: green;
+    background-color: #2a8029;
     color: white;
     font-size: 12px;
 
