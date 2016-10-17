@@ -191,7 +191,7 @@ h1 {
 	border: 1px solid red;
 	background-color: #DFDFDF;
 	overflow: auto;
-	padding: 0 180px 0 180px;
+	padding: 0 140px 0 140px;
 }
 #adresse {
 	margin: 10px;
@@ -235,11 +235,14 @@ hr {
 @media only screen and (max-width: 1507px) {
 	#ContentPage-colors {
 		display: -webkit-flex;
-	    display: flex;
+	    	display: flex;
 	 	-webkit-flex-direction: column;
-    	flex-direction: column;
-    	justify-content: center;
-    	align-items: center;
+    		flex-direction: column;
+    		justify-content: center;
+    		align-items: center;
+	}
+	#footer {
+		padding: 0 30px;
 	}
 }
 
