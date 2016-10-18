@@ -20,10 +20,16 @@ h1 {
 
 /*#############################################*/
 
+#ContentPage {
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+}
+
 #wrapper {
-	max-width: 80%;
-	margin: 0 auto;
-	border: 1px solid red;
+    border: 1px red solid;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /*############################################
@@ -70,32 +76,14 @@ h1 {
 		        	INDEX
 ##############################################*/
 
-.ContentPage {
-	display: -webkit-flex;
-    	display: flex;
-    	-webkit-flex-direction: column;
-    	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	vertical-align: center;
-	padding: 0;
-}
-
 
 .showcase {
-	/*display: flex;
-    	-webkit-flex-direction: column;
-    	flex-direction: column;
-    	justify-content: center;
-    	align-items: center;
-	width: 600px;
-	height: 600px;*/
-    	margin: 30px;
+    	margin: 20px;
     	padding: 15px;
     	border: 1px solid red;
     	background-color: #2a8029;
 	text-decoration: none;
+          display: inline-block;
 }
 .showcase:hover {
 	background-color: blue;
@@ -103,7 +91,6 @@ h1 {
 .desc {
 
 	font-size: 34px;
-	/*font-weight: bold;*/
 	margin: 15px;
 	color: white;
 }
@@ -112,19 +99,10 @@ h1 {
 		      FARBAUSWAHL
 ##############################################*/
 
-#ContentPage-colors {
-	display: -webkit-flex;
-	display: flex;
-	display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .farbauswahl {
 	text-align: center;
 	display: inline-block;
-	margin: 15px;
+	margin: 20px;
 	padding: 15px;
     border: 1px solid red;
     background-color: #2a8029;
@@ -136,29 +114,49 @@ h1 {
 ##############################################*/
 
 #artikelwrapper{
+        display: flex;
+    -webkit display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
     border: 1px solid red;
+    padding: 15px;
+    overflow: hidden;
+
 }
 /*###FOTO###*/
 #fotowrapper{
-    float: left;
+     display: flex;
+    -webkit display: flex;
+    align-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /*float: left;*/
     border: 1px solid red;
+    text-align: center;
 }
+#artikelbild {
+
+}
+
 #fotoswitcher {
-    float: left;
+    display: inline-block;
+    text-align: center;
     border: 1px solid red;
-    margin: 10px;
 }
 
 #fotoswitcher img {
     margin: 10px;
-    display: block;
 
 
 }
 /*###BESCHREIBUNG###*/
 #beschreibungswrapper{
     border: 1px solid red;
+    padding: 20px;
     float: right;
+    max-width: 700px;
 
 }
 #beschreibung{
@@ -189,16 +187,16 @@ h1 {
 			   FOOTER
 ##############################################*/
 #footer {
-	width: 100%;
-	border: 1px solid red;
-	background-color: #DFDFDF;
-	overflow: auto;
-	padding: 0 140px 0 140px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #DFDFDF;
+    overflow: auto;
+    padding: 0 140px 0 140px;
 }
 #adresse {
-	margin: 10px;
-	padding: 0 40px;
-	float: left;
+    margin: 10px;
+    padding: 0 40px;
+    float: left;
 }
 #adresse p {
 	margin: 2px;
@@ -208,9 +206,9 @@ hr {
 }
 
 #oeffnungszeiten {
-	margin: 10px;
-	padding: 0 40px;
-	float: right;
+    margin: 10px;
+    padding: 0 40px;
+    float: right;
 }
 #oeffnungszeiten p {
 	margin: 2px;
@@ -234,37 +232,35 @@ hr {
 		  RESPONSIVE DESIGN
 ##############################################*/
 
-@media only screen and (max-width: 1507px) {
-	#ContentPage-colors {
-		display: -webkit-flex;
-	    	display: flex;
-	 	-webkit-flex-direction: column;
-    		flex-direction: column;
-    		justify-content: center;
-    		align-items: center;
-	}
+@media only screen and (max-width: 1300px) {
+
 	#footer {
-		padding: 0 30px;
+	    padding: 0 30px;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
     /*header*/
-	#menu li{
-		display: block;
-		padding: 6px 12px ;
-		font-size: 40px
+          #menu {
+            padding: 0;
+          }
+          #menu li{
+            	display: block;
+            	padding: 6px 12px ;
+            	font-size: 40px
 	}
 
 
 	#wrapper {
-		max-width: 100%;
-		margin: 0;
+		width: 100%;
+		margin: 0 auto;
 	}
 
     /*INDEX*/
 	.showcase {
 		width: 100%;
+                    margin: 20px 0;
+                    padding: 20px 30px;
 	}
 	.showcase img {
 		width: 100%;
@@ -272,12 +268,10 @@ hr {
 	}
 
     /*Farbauswahl-Seite*/
-	#ContentPage-colors {
-		width: 100%;
-		margin: 0;
-	}
+
 	.farbauswahl {
 		width: 100%;
+                    margin: 20px 0;
 	}
 	.farbauswahl img {
 		width: 100%;
