@@ -114,7 +114,7 @@ h1 {
 ##############################################*/
 
 #artikelwrapper{
-        display: flex;
+    display: flex;
     -webkit display: flex;
     align-content: center;
     justify-content: center;
@@ -167,19 +167,73 @@ h1 {
 /*###SWITCHER###*/
 #switcher{
     border: 1px solid red;
+    overflow: auto;
 }
 #farbswitcher{
     border: 1px solid red;
-
+    list-style: none;
+    width: 50%;
+    float: left;
 }
+#farbswitcher li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
 #fontswitcher{
     border: 1px solid red;
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+#fontswitcher li {
+    display: inline-block;
+    padding: 0 10px;
+}
 
+/*Farbauswahl-divs*/
+.farb-red {
+    height: 45px;
+    width: 45px;
+    background-color: red;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+}
+
+.farb-grey {
+    height: 45px;
+    width: 45px;
+    background-color: grey;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+}
+.farb-green {
+    height: 45px;
+    width: 45px;
+    background-color: darkgreen;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+}
+.farb-black {
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+}
+.farb-beige {
+    height: 45px;
+    width: 45px;
+    background-color: #F5F5DC;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
 }
 
 /*###BESTELLEN###*/
 #bestellinfo{
+    display: block;
     border: 1px solid red;
+    height: 200px;
 
 }
 
