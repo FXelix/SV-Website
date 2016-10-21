@@ -1,0 +1,9 @@
+    $(function(){
+        $("#header").load("/SV-Website/standard/header.html");
+    });
+    $(function(){
+        $("#footer").load("/SV-Website/standard/footer.html");
+    });
+    $(function(){
+        $("#copyright").load("/SV-Website/standard/copyright.html");
+    });
