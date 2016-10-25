@@ -14,9 +14,6 @@ body {
 	padding: 0;
 }
 
-h1 {
-	text-decoration: underline;
-}
 
 /*#############################################*/
 
@@ -27,8 +24,8 @@ h1 {
 }
 
 #wrapper {
-    border: 1px red solid;
-    max-width: 1500px;
+    /*border: 1px solid red;*/
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -80,19 +77,24 @@ h1 {
 .showcase {
     	margin: 20px;
     	padding: 15px;
-    	border: 1px solid red;
+    	/*border: 1px solid red;*/
     	background-color: #2a8029;
 	text-decoration: none;
           display: inline-block;
 }
 .showcase:hover {
-	background-color: blue;
+	background-color: #1d591d;
 }
 .desc {
 
 	font-size: 34px;
 	margin: 15px;
 	color: white;
+}
+
+.showcase img {
+    height: auto;
+    width: 500px;
 }
 
 /*############################################
@@ -104,7 +106,7 @@ h1 {
 	display: inline-block;
 	margin: 20px;
 	padding: 15px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: #2a8029;
 }
 
@@ -119,7 +121,7 @@ h1 {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 15px;
     overflow: hidden;
 
@@ -132,8 +134,8 @@ h1 {
     justify-content: center;
     -webkit-flex-direction: column;
     flex-direction: column;
-    /*float: left;*/
-    border: 1px solid red;
+    float: left;
+    /*border: 1px solid red;*/
     text-align: center;
 }
 #artikelbild {
@@ -143,7 +145,7 @@ h1 {
 #fotoswitcher {
     display: inline-block;
     text-align: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 #fotoswitcher img {
@@ -153,24 +155,24 @@ h1 {
 }
 /*###BESCHREIBUNG###*/
 #beschreibungswrapper{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 20px;
     float: right;
     max-width: 700px;
 
 }
 #beschreibung{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
 }
 
 /*###SWITCHER###*/
 #switcher{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     overflow: auto;
 }
 #farbswitcher{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     list-style: none;
     width: 50%;
     float: left;
@@ -181,7 +183,7 @@ h1 {
 }
 
 #fontswitcher{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     list-style: none;
     width: 50%;
     float: left;
@@ -231,9 +233,9 @@ h1 {
 
 /*###BESTELLEN###*/
 #bestellinfo{
-    display: block;
-    border: 1px solid red;
-    height: 200px;
+    /*border: 1px solid red;*/
+    padding: 30px;
+
 
 }
 
@@ -242,10 +244,12 @@ h1 {
 ##############################################*/
 #footer {
     width: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
     background-color: #DFDFDF;
     overflow: auto;
-    padding: 0 140px 0 140px;
+    padding: 0 150px 0 150px;
 }
 #adresse {
     margin: 10px;
@@ -289,7 +293,7 @@ hr {
 @media only screen and (max-width: 1300px) {
 
 	#footer {
-	    padding: 0 30px;
+	    padding: 0 40px;
 	}
 }
 
@@ -331,4 +335,26 @@ hr {
 		width: 100%;
 		height: auto;
 	}
+
+    /*Artikelseite*/
+        #artikelwrapper {
+            display: block;
+        }
+        #artikelwrapper div {
+            margin: 0 auto;
+            display: block;
+            float: none;
+            max-width: none;
+        }
+        #artikelbild {
+            height: auto;
+            width: 100%;
+            padding: 30px;
+        }
+        #fotoswitcher img {
+            width: 100px;
+            height: 100px;
+        }
 }
+
+
