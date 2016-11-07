@@ -5,7 +5,7 @@ Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 			ALLGEMEINES
 ##############################################*/
 * {
-	box-sizing: border-box;.
+	box-sizing: border-box;
 }
 
 body {
@@ -45,6 +45,9 @@ body {
 	vertical-align: top;
 }
 
+#handy-menu {
+    display: none;
+}
 #menu {
 	background-color: #2a8029;
 	list-style: none;
@@ -117,7 +120,7 @@ body {
 
 #artikelwrapper{
     display: flex;
-    -webkit display: flex;
+    -webkit-display: flex;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
@@ -129,7 +132,7 @@ body {
 /*###FOTO###*/
 #fotowrapper{
      display: flex;
-    -webkit display: flex;
+    -webkit-display: flex;
     align-content: center;
     justify-content: center;
     -webkit-flex-direction: column;
@@ -249,7 +252,7 @@ body {
     border-right: 1px solid grey;
     background-color: #DFDFDF;
     overflow: auto;
-    padding: 0 150px 0 150px;
+    padding: 0 150px 10px 150px;
 }
 #adresse {
     margin: 10px;
@@ -261,6 +264,7 @@ body {
 }
 hr {
 	border-top: 1px solid black;
+          width: 300px;
 }
 
 #oeffnungszeiten {
@@ -293,14 +297,45 @@ hr {
 @media only screen and (max-width: 1300px) {
 
 	#footer {
-	    padding: 0 70px;
+	    padding: 0 70px 10px 70px;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
     /*header*/
+
+        #handy-menu {
+            overflow: auto;
+            direction: rtl;
+            display: block;
+            background-color:  #2a8029;
+            list-style: none;
+            margin: 0;
+            vertical-align: top;
+}
+
+        #handy-menu li {
+            padding: 16px 24px;
+            font-size: 24px;
+
+}
+         #hamburger {
+             float: right;
+}
+        #handy-menu li a {
+            text-decoration: none;
+            color: white;
+
+}
+        #handy-menu li:hover {
+            background-color: #1d591d;
+            transition: 0.2s;
+}
+
+
+
           #menu {
-            padding: 0;
+            display: none;
           }
           #menu li{
             	display: block;
@@ -324,6 +359,12 @@ hr {
 		width: 100%;
 		height: auto;
 	}
+
+            #footer div {
+                float: none;
+                margin: 0 auto;
+                text-align: center;
+            }
 
     /*Farbauswahl-Seite*/
 
