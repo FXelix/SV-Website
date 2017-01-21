@@ -196,6 +196,7 @@ p {
 #farbswitcher li {
     display: inline-block;
     padding: 0 10px;
+        text-align: center;
 }
 
 #fontswitcher{
@@ -207,13 +208,14 @@ p {
 #fontswitcher li {
     display: inline-block;
     padding: 0 10px;
+        text-align: center;
 }
 
 /*Farbauswahl-divs*/
 .farb-red {
     height: 45px;
     width: 45px;
-    background-color: red;
+    background-color: darkred;
     border: 1px solid darkgrey;
     border-radius: 30px;
 }
@@ -293,8 +295,13 @@ hr {
 }
 #oeffnungszeiten p {
 	margin: 2px;
+}
+
+#impressum a {
+    color: black;
 
 }
+
 
 /*############################################
 		  COPYRIGHT
@@ -354,12 +361,13 @@ hr {
 
 
           #menu {
-            display: none;
+            padding: 0;
           }
           #menu li{
             	display: block;
             	padding: 6px 12px ;
-            	font-size: 40px
+            	font-size: 40px;
+
 	}
 
 
