@@ -299,7 +299,10 @@ hr {
 
 #impressum a {
     color: black;
+}
 
+#impressum_main {
+	padding: 40px 60px;
 }
 
 
