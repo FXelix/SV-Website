@@ -2,22 +2,22 @@
 Beginn am 5.9.16. Von Robert Kiene und Felix Scheling*/
 
 /*############################################
-			ALLGEMEINES
+            ALLGEMEINES
 ##############################################*/
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family:'Source Sans Pro', Calibri, Candara, Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+    font-family:'Source Sans Pro', Calibri, Candara, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: black;
     font-size: 20px;
-    margin: 0;
+    margin: 6px;
     padding: 0;
 }
 p {
@@ -41,19 +41,19 @@ p {
 }
 
 /*############################################
-			HEADER/NAVBAR
+            HEADER/NAVBAR
 ##############################################*/
 
 #header {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	white-space: nowrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
 }
 
 #header-img {
-	width: 100%;
-	vertical-align: top;
+    width: 100%;
+    vertical-align: top;
 
 }
 
@@ -61,50 +61,50 @@ p {
     display: none;
 }
 #menu {
-	background-color: #2a8029;
-	list-style: none;
-	text-align: center;
-	margin: 0;
-	vertical-align: top;
+    background-color: #2a8029;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    vertical-align: top;
 }
 
 #menu li {
-	padding: 16px 24px;
-	display: inline-block;
-	font-size: 24px;
+    padding: 16px 24px;
+    display: inline-block;
+    font-size: 24px;
 
 }
 #menu li a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 
 }
 #menu li:hover {
-	background-color: #1d591d;
-	transition: 0.2s;
+    background-color: #1d591d;
+    transition: 0.2s;
 }
 
 /*############################################
-		        	INDEX
+                    INDEX
 ##############################################*/
 
 
 .showcase {
-    	margin: 20px;
-    	padding: 15px;
+        margin: 20px;
+        padding: 15px;
 
-    	background-color: #2a8029;
-	text-decoration: none;
+        background-color: #2a8029;
+    text-decoration: none;
           display: inline-block;
 }
 .showcase:hover {
-	background-color: #1d591d;
+    background-color: #1d591d;
 }
 .desc {
 
-	font-size: 34px;
-	margin: 15px;
-	color: white;
+    font-size: 34px;
+    margin: 15px;
+    color: white;
 }
 
 .showcase img {
@@ -113,16 +113,16 @@ p {
 }
 
 /*############################################
-		      FARBAUSWAHL
+              FARBAUSWAHL
 ##############################################*/
 
 .farbauswahl {
-	text-align: center;
-	display: inline-block;
-	margin: 20px;
-	padding: 15px;
-	text-decoration: none;
-	color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
 
     background-color: #2a8029;
 }
@@ -133,7 +133,7 @@ p {
 }
 
 /*############################################
-		ARTIKELSEITE
+        ARTIKELSEITE
 ##############################################*/
 
 #artikelwrapper{
@@ -272,7 +272,7 @@ p {
 }
 
 /*############################################
-			   FOOTER
+               FOOTER
 ##############################################*/
 #footer {
     width: 100%;
@@ -289,10 +289,10 @@ p {
     float: left;
 }
 #adresse p {
-	margin: 2px;
+    margin: 2px;
 }
 hr {
-	border-top: 1px solid black;
+    border-top: 1px solid black;
           width: 300px;
 }
 
@@ -302,7 +302,7 @@ hr {
     float: right;
 }
 #oeffnungszeiten p {
-	margin: 2px;
+    margin: 2px;
 }
 
 #impressum a {
@@ -310,12 +310,12 @@ hr {
 }
 
 #impressum_main {
-	padding: 40px 60px;
+    padding: 40px 60px;
 }
 
 
 /*############################################
-		  COPYRIGHT
+          COPYRIGHT
 ##############################################*/
 #copyright {
     padding: 2px;
@@ -328,14 +328,14 @@ hr {
 }
 
 /*############################################
-		  RESPONSIVE DESIGN
+          RESPONSIVE DESIGN
 ##############################################*/
 
 @media only screen and (max-width: 1300px) {
 
-	#footer {
-	    padding: 0 70px 10px 70px;
-	}
+    #footer {
+        padding: 0 70px 10px 70px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -375,28 +375,28 @@ hr {
             padding: 0;
           }
           #menu li{
-            	display: block;
-            	padding: 6px 12px ;
-            	font-size: 40px;
+                display: block;
+                padding: 6px 12px ;
+                font-size: 40px;
 
-	}
+    }
 
 
-	#wrapper {
-		width: 100%;
-		margin: 0 auto;
-	}
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
 
     /*INDEX*/
-	.showcase {
-		width: 100%;
+    .showcase {
+        width: 100%;
                     margin: 20px 0;
                     padding: 20px 30px;
-	}
-	.showcase img {
-		width: 100%;
-		height: auto;
-	}
+    }
+    .showcase img {
+        width: 100%;
+        height: auto;
+    }
 
             #footer div {
                 float: none;
@@ -405,15 +405,17 @@ hr {
             }
 
     /*Farbauswahl-Seite*/
-
-	.farbauswahl {
-		width: 100%;
+    h1 {
+        font-size: 38px;
+    }
+    .farbauswahl {
+        width: 100%;
                     margin: 20px 0;
-	}
-	.farbauswahl img {
-		width: 100%;
-		height: auto;
-	}
+    }
+    .farbauswahl img {
+        width: 100%;
+        height: auto;
+    }
 
     /*Artikelseite*/
         #artikelwrapper {
@@ -435,5 +437,3 @@ hr {
             height: 100px;
         }
 }
-
-
