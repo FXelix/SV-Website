@@ -121,6 +121,8 @@ p {
 	display: inline-block;
 	margin: 20px;
 	padding: 15px;
+	text-decoration: none;
+	color: black;
 
     background-color: #2a8029;
 }
