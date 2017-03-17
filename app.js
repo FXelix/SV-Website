@@ -7,3 +7,6 @@
     $(function(){
         $("#copyright").load("/SV-Website/standard/copyright.html");
     });
+    $(function(){
+        $("#bestellinfo").load("/SV-Website/standard/bestellinfo.html");
+    });
