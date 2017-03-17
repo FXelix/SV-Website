@@ -14,6 +14,12 @@ body {
 	padding: 0;
 }
 
+h1 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
 p {
     color: #141414;
     font-size: 19px;
@@ -29,7 +35,7 @@ p {
 }
 
 #wrapper {
-    /*border: 1px solid red;*/
+
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -86,7 +92,7 @@ p {
 .showcase {
     	margin: 20px;
     	padding: 15px;
-    	/*border: 1px solid red;*/
+
     	background-color: #2a8029;
 	text-decoration: none;
           display: inline-block;
@@ -115,7 +121,7 @@ p {
 	display: inline-block;
 	margin: 20px;
 	padding: 15px;
-    /*border: 1px solid red;*/
+
     background-color: #2a8029;
 }
 
@@ -134,7 +140,7 @@ p {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    /*border: 1px solid red;*/
+
     padding: 15px;
     overflow: hidden;
 
@@ -148,7 +154,7 @@ p {
     -webkit-flex-direction: column;
     flex-direction: column;
     float: left;
-    /*border: 1px solid red;*/
+
     text-align: center;
 }
 
@@ -161,7 +167,7 @@ p {
 #fotoswitcher {
     display: inline-block;
     text-align: center;
-    /*border: 1px solid red;*/
+
 }
 
 #fotoswitcher img {
@@ -171,24 +177,24 @@ p {
 }
 /*###BESCHREIBUNG###*/
 #beschreibungswrapper{
-    /*border: 1px solid red;*/
+
     padding: 20px 40px;
     float: right;
     max-width: 700px;
 
 }
 #beschreibung{
-    /*border: 1px solid red;*/
+
 
 }
 
 /*###SWITCHER###*/
 #switcher{
-    /*border: 1px solid red;*/
+
     overflow: auto;
 }
 #farbswitcher{
-    /*border: 1px solid red;*/
+
     list-style: none;
     width: 50%;
     float: left;
@@ -200,7 +206,7 @@ p {
 }
 
 #fontswitcher{
-    /*border: 1px solid red;*/
+
     list-style: none;
     width: 50%;
     float: left;
@@ -251,7 +257,7 @@ p {
 
 /*###BESTELLEN###*/
 #bestellinfo{
-    /*border: 1px solid red;*/
+
     padding: 30px;
     display: flex;
     -webkit-display: flex;
@@ -268,7 +274,7 @@ p {
 ##############################################*/
 #footer {
     width: 100%;
-    /*border: 1px solid red;*/
+
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     background-color: #DFDFDF;
